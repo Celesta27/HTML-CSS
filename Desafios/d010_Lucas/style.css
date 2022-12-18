@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    padding: 0px;
+    /* #39CC7A */
+}
+
+header{
+    color: white;
+    background-image:linear-gradient(#2DA262,#227847, #1A5B37);
+    padding: 10px;
+}
+
+main {
+    margin: auto;
+    width: 650px;
+    margin-bottom: 8px;
+    padding: 0px 10px 5px;
+    background-color: white;
+}
+
+section {
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+section#corpoExtra {
+    padding: 0px;
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #1A5C38;
+    padding: 6px;
+    font-size: small;
+}
+
+strong {
+    color:  #1B5D39;
+}
+
+div#inicial {
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h1#titulo {
+    font-family: 'android', Helvetica, sans-serif;
+    color: #1B5D39;
+}
+
+h2 {
+    font-family: 'android', Helvetica, sans-serif;
+    font-size: 1.35em;
+    color: #1B5D39;
+    background-image:linear-gradient(to left, #ffffff 30%,  #86eeb5);
+    background-attachment: fixed;
+    margin: 10px;
+    padding: 6px;
+
+}
+
+h3#tituloExtra {
+    color: white;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1cm;
+}
+
+p#paragInicial {
+    text-align: center;
+    margin: auto;
+    width: 450px;
+
+
+}
+
+p#textoRodape {
+    margin: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1B5D39;
+    font-weight: bold;
+}
+
+a.menu {
+    padding: 5px 10px;
+    color: white;
+}
+
+.separarTabela {
+    display: inline-block;
+    margin: 0px 100px 0px 0px;
+}
+
+div#espaçamentoExtra {
+    padding: 10px;
+}
+
+a.menu:hover {
+    background-color: #84E1AD;
+    color: #1A5B37;
+}
+
+abbr {
+    text-decoration: underline;
+}
