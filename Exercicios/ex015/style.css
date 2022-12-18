@@ -1,0 +1,17 @@
+@charset "UTF-8"; /* isto é uma regra */
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: darkgoldenrod;
+    background-color: antiquewhite;
+}
+h2 {
+    color: coral;
+}
+p {
+    text-align: justify;
+}
