@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font-title: 'Passion One', cursive;
+    --font-body: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    height: 275px;
+}
+
+header h1 {
+    font-family: var(--font-title);
+    font-size: 7em;
+    
+    text-align: center;
+    padding: 50px 10px 20px;
+}
+
+header p {
+    font-size: 20px;
+    text-align: center;
+}
+
+header a {
+    font-weight: bolder;
+    
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    font-family: var(--font-body);
+    white-space: pre-line;
+    font-size: 40px;
+    max-width: 500px;
+    /* margin: 40px 70px 20px; */
+}
+
+p.estrofe_fundo {
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+}
+
+
+div.estrofe {
+    background-color: white;
+    padding: 30px;
+}
+
+div#estrofe_1 {
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 30px;
+}
+
+div#estrofe_2 {
+    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 30px;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
