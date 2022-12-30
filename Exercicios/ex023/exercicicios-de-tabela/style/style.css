@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Sans-Serif;
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+
+caption {
+    font-size: 1.6em;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    border:2px solid #DDDDDD;
+    background-color: white;
+}
+
+table {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    width: 50vw;
+}
+
+table tr td {
+    font-size: 14px;
+    color:  #666666;
+    text-align: center;
+    padding: 4px;
+    width: 6vw;
+}
+
+thead tr th{
+    position: sticky;
+    top: -1px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: #999999;
+    background-color: white;
+}
+
+th,td{
+    border-bottom: 1px solid #DDDDDD;   
+}
+
+tfoot tr td{
+    padding: 10px;
+    font-size: 11px;
+}
+
+tfoot p{
+    text-align: left;
+    line-height: 18px;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-align: left;
+}
+
+.pontos {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.col_times {
+    width: 40vw;
+}
+
+.col_pontos {
+    background-color: #F7F7F7;
+}
+
+.col_vitoria {
+    background-color: #F7F7F7;
+}
+
+.col_derrotas {
+    background-color: #F7F7F7;
+}
+
+.col_gols_contra {
+    background-color: #F7F7F7;
+}
+
+.col_aproveitamento {
+    background-color: #F7F7F7;
+}
+
+.zona_libertadores {
+    color: #003366;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.zona_pre_libertadores {
+    color: #1398BE;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.zona_sul_americana {
+    color: #DE9800;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.zona_nada {
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.zona_rebaixamento {
+    color: #C91B04;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.separacao {
+    border-top: 2px solid  #CCCCCC;
+}
+
+.legenda_libertadores {
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #003366;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.legenda_pre_libertadores {
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #1398BE;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.legenda_sul_americana {
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #DE9800;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.legenda_rebaixamento {
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #C91B04;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
